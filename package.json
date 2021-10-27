@@ -1,0 +1,22 @@
+{
+  "name": "wys_unbound",
+  "version": "1.0.0",
+  "repository": "https://github.com/SpecStra/wys_unbound.git",
+  "author": "Chainruledydx <60750530+Chainruledydx@users.noreply.github.com>",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.0.12"
+  },
+  "scripts": {
+    "checkingOn": "nodemon --exec babel-node wys_backend/src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
+  }
+}
